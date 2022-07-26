@@ -1,4 +1,5 @@
 
+
 function countFiles {
 	while true
 	do
@@ -22,4 +23,5 @@ function countFiles {
 		fi
 		
 	done
-}		
+}
+countFiles
