@@ -3,8 +3,9 @@
 function countFiles {
 	while true
 	do
-		echo "How many files are the current dirctory?: "
+		echo "How many files are in the current directory?: "
         	read Files
+
 
         	local number=$(pwd | ls | wc -l)
 
